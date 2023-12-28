@@ -2,16 +2,13 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(15, 90, 155);
-    overflow: hidden;
-    position: relative;
+    background-color: rgb(37, 107, 168);
 }
 
-.container {
+.container{
     width: 80%;
     margin: 0 auto;
     z-index: 2;
-
 }
 
 header,
@@ -19,12 +16,14 @@ footer {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    background-color: aquamarine;
 }
 
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: aqua;
 }
 
 #madLibOutput {
@@ -177,3 +176,7 @@ footer {
 }
 
 /* Demo Purpose Only*/
+
+.img-fluid {
+    width: 100%;
+}
